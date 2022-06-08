@@ -32,7 +32,6 @@ public class Test
         Assert.AreEqual(0, data5.Count());
     }
 
-
     [TestCase(null)]
     [TestCase("")]
     public void Char_例外値(string text)

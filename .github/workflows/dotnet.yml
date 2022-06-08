@@ -20,7 +20,7 @@ jobs:
     env:
       Solution_Name: Ngram.sln
       Test_Project_Path: Tests\Tests.csproj
-      
+
     steps:
     - name: Checkout
       uses: actions/checkout@v3
